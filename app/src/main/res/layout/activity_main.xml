@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/outer_space">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+
+        android:elevation="4dp"
+        app:cardCornerRadius="8dp"
+
+        app:cardBackgroundColor="@color/tall_poppy">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="0.5"
+                android:background="@color/outer_space" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textAlignment="center"
+
+                android:fontFamily="@font/rubikwetpaintregular"
+                android:text="Welcome to World of Tickets"
+                android:layout_centerInParent="true"
+                android:textColor="@color/white_smole"
+                android:textSize="35sp"
+                />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

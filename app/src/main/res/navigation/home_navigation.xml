@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_navigation"
+    app:startDestination="@id/register_new">
+
+    <fragment
+        android:id="@+id/login_fragment"
+        android:name="com.junrdev.ltick.fragments.home.login_fragment"
+        android:label="fragment_login_fragment"
+        tools:layout="@layout/fragment_login_fragment" />
+    <fragment
+        android:id="@+id/register_new"
+        android:name="com.junrdev.ltick.fragments.home.register_new"
+        android:label="fragment_register_new"
+        tools:layout="@layout/fragment_register_new" />
+</navigation>

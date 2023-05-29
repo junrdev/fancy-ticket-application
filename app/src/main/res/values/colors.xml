@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="tall_poppy">#BF3325</color>
+    <color name="punch">#DE4839</color>
+    <color name="rust">#BF3312</color>
+
+
+    <color name="boticelli_white">#CAD5E2</color>
+    <color name="outer_space">#242B2E</color>
+    <color name="putty">#E5D68A</color>
+    <color name="cornflower_blue">#5DA3FA</color>
+
+
+    <color name="white_smole">#e7eed0</color>
+</resources>
